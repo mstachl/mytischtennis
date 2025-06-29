@@ -1,0 +1,5 @@
+*.pbix
+*.env
+data/*
+node_modules/*
+*.spyproject/*
