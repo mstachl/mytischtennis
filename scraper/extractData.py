@@ -7,7 +7,7 @@ resultFile = "results.csv"
 header = ['date','name','id','result','won','lost']
 files = []
 
-datadir = "../data/"
+datadir = "./data/"
 
 print(os.listdir(datadir))
 
