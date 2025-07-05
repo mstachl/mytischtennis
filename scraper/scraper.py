@@ -31,7 +31,7 @@ while i < end:
     if r.status_code == 200:
         content = r.text
 
-        file = open("../data/stats_{}.html".format(i),'w')
+        file = open("./data/stats_{}.html".format(i),'w')
         file.write(content)
         file.close()
     else:
